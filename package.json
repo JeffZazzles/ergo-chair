@@ -1,0 +1,22 @@
+{
+  "name": "barcelona-ergonomic-chair-guide",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A responsive static website for an ergonomic office chair research report.",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "serve": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node --check script.js && node scripts/check-site.mjs"
+  },
+  "keywords": [
+    "ergonomics",
+    "office-chairs",
+    "static-site",
+    "responsive"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
